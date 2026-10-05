@@ -4,7 +4,7 @@ ADP tools for Eclipse. Every ADP tool is a diagram, a designer or an editor; the
 
 ## How work is done here: spec-driven development (GitHub Spec Kit)
 
-Every change starts as a specification, written in [etalii.adp](https://github.com/etalii-adp/etalii.adp) rather than here: this repository has no Spec Kit setup of its own. A feature is `specs/NNN-feature-name/` in etalii.adp, specified, planned and split into tasks with etalii.adp's Spec Kit skills as its `CLAUDE.md` describes; its tasks name files here as `etalii.adp.ide.eclipse/...`, and the code arrives here in a pull request of its own, on a branch named as the feature's. Work on it from etalii.adp's folder, with this repository's clone beside it, or set `SPECIFY_INIT_DIR` to etalii.adp's folder.
+Every change starts as a specification, written in [etalii.adp](https://github.com/etalii-adp/etalii.adp) rather than here: this repository has no Spec Kit setup of its own. A feature is `specs/NNN-feature-name/` in etalii.adp, specified, planned and split into tasks with etalii.adp's Spec Kit skills as its `CLAUDE.md` describes; its tasks name files here as `etalii.adp.ide.eclipse/...`, and the code arrives here in a pull request of its own, on a branch named as the feature's. That pull request's description links the feature's folder in etalii.adp and names the etalii.adp commit its tasks were taken from, and the tasks are ticked in etalii.adp only once it is merged. Work on it from etalii.adp's folder, with this repository's clone beside it, or set `SPECIFY_INIT_DIR` to etalii.adp's folder.
 
 
 Specs say *what* and *why*; plans say *how*. Do not put implementation choices in a spec.
